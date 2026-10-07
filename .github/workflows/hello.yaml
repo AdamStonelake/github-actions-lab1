@@ -12,7 +12,7 @@ jobs:
       - name: Show Operating System
         run: uname -a
       - name: Show Python version
-        run: pythong --version
+        run: python --version
       - name: Show Git version
         run: git --version 
       - name: Show Files 
