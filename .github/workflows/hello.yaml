@@ -11,3 +11,9 @@ jobs:
         run: date
       - name: Show Operating System
         run: uname -a
+      - name: Show Python version
+        run: pythong --version
+      - name: Show Git version
+        run: git --version 
+      - name: Show Files 
+        run: ls -la
